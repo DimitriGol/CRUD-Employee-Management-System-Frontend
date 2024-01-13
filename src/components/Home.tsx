@@ -5,9 +5,9 @@ import { EmployeeTable } from "./EmployeeTable"
 function Home() {
     return (
         <>
-            <div className="px-4 py-2 m-2">
+            <div className="px-4 py-2 m-2 text-center">
                 <div className="">
-                    <h1 className="flex justify-center p-4 text-black-900 font-bold text-2xl underline">Employee CRUD Management System</h1>
+                    <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-4xl lg:text-6xl">Employee CRUD Management System</h1>
                 </div>
                 
                 <EmployeeTable/>
