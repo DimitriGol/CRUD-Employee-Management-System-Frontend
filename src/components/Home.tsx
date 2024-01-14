@@ -1,6 +1,6 @@
 import { Button } from "flowbite-react"
 import { Link } from "react-router-dom"
-import { EmployeeTable } from "./EmployeeTable"
+import EmployeeTable from "./EmployeeTable"
 
 function Home() {
     return (
