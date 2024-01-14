@@ -1,7 +1,7 @@
 import { Table } from "flowbite-react"
 
 
-export const EmployeeTable = () => {
+function EmployeeTable() {
     return(
         <>
             <div>
@@ -82,3 +82,5 @@ export const EmployeeTable = () => {
         </>
     )
 }
+
+export default EmployeeTable
