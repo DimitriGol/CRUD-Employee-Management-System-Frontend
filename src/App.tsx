@@ -1,6 +1,7 @@
 import './stylesheet/App.css'
 import Home from './components/Home.tsx';
 import AddEmployee from './components/AddEmployee.tsx';
+import Employees from './components/Employees.tsx';
 import ErrorPage from './components/ErrorPage.tsx';
 import Nav from './components/Nav.tsx';
 
@@ -15,6 +16,7 @@ function App() {
         <Routes>
             <Route path='/' element={<Home />} />
             {/* Employee Routes */}
+            <Route path='employees' element={<Employees />} />
             <Route path='add-employee' element={<AddEmployee />} />
             {/* <Route path="employee" element={<SingleEmployeeView />} /> */}
             <Route path='*' element={<ErrorPage />} />
