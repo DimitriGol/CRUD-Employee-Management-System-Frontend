@@ -7,7 +7,7 @@ function AddEmployee() {
     return(
         <div>
 
-            <h1 className='flex justify-center mt-4 text-black-900 font-bold text-2xl'>Add New Employee</h1>
+            <h1 className='flex justify-center mt-7 text-black-900 font-bold text-4xl'>Add New Employee</h1>
             <div className='flex justify-center pt-2'>
                 <div className='pt-5'>
                     <form className="flex max-w-md flex-col gap-4">
@@ -16,11 +16,11 @@ function AddEmployee() {
                             <div className="mb-2 block">
                                 <Label htmlFor="firstName" value="First Name" />
                             </div>
-                            <TextInput id="firstName" type="text" required shadow />
+                            <TextInput className="w-80" id="firstName" type="text" required shadow />
                         </div>
                         <div>
                             <div className="mb-2 block">
-                                <Label htmlFor="lastName" value="Last Nmae" />
+                                <Label htmlFor="lastName" value="Last Name" />
                             </div>
                             <TextInput id="lastName" type="text" required shadow />
                         </div>
@@ -36,7 +36,7 @@ function AddEmployee() {
                             </div>
                             <TextInput id="email2" type="email" icon={HiMail} placeholder="name@domain.com" required shadow />
                         </div>
-                        <Button type="submit" className='mt-4'>Add New Employee</Button>
+                        <Button type="submit" className='mt-4 shadow-md shadow-blue-800/50'>Add New Employee</Button>
                     </form>
                 </div>
             </div>
